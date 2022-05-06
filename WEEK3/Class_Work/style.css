@@ -1,0 +1,15 @@
+.awesomeDataList{
+    background-color: pink;
+}
+
+.listContainer {
+    width: 90%;
+    margin: 0 auto;
+    background-color: bisque;
+    border: 1px solid blue;
+}
+
+.listContainer ul {
+    list-style-type: none;
+    overflow: hidden;
+}
