@@ -1,0 +1,64 @@
+.margin{
+    margin: 0px
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#center{
+    text-align: center;
+}
+
+#left{
+    text-align: left;
+}
+
+#background{
+    background-color: lightblue;
+}
+#hero-box{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    width: 100%
+  }
+
+#background2{
+    height: 350px;
+    background-color: brown;
+}
+
+body {
+    background-color: #dec3c3; 
+}
+
+header {
+    background-color:rgba(20,30,13, .7);
+}
+
+nav a:hover{
+    background-color: black;
+    color: #d9c2a3;
+}   
+
+#green{
+    background-color:rgba(20,30,13, .7);
+    color: #fcfbfb;
+}
+
+.icon {
+    width: 80px;
+}
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+} 
+
+
+
