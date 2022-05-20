@@ -99,3 +99,6 @@ nav a{
     transform: translate(-50%, 0%);
 }
 
+footer {
+    font-size: 12px;
+}
