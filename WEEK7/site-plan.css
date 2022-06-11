@@ -28,7 +28,10 @@ Fonts are separated by a | */
   --nav-hover-background-color: #396E94;
 }
 
-
+#image{
+  width: 300px;
+  height: auto;
+}
 
 
 

@@ -12,7 +12,7 @@ nav {
   }
 
   nav a {
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: center;
     padding-top: 20px;
   }
@@ -22,8 +22,7 @@ nav a:link, nav a:visited {
     text-decoration: none;
     -webkit-text-stroke: .5px #0f9fa7 ;
     font-weight: bolder;
-  }
-  
+  }  
 
 nav a:hover {
     color: white;
@@ -54,4 +53,22 @@ h3 {
   font-size: 40px;
 }
 
-  
+#image{
+  width: 700px;
+  height: auto;
+}
+
+#image{
+  width: 700px;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+nav a {
+  display: block;
+  padding: 15px;
+}
+nav{
+  flex-direction: column;
+}
+}
