@@ -15,6 +15,7 @@ nav {
     font-size: 1.3em;
     text-align: center;
     padding-top: 20px;
+    flex-direction: column;
   }
 
 nav a:link, nav a:visited {
@@ -39,6 +40,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 9fr;
     margin: -8px;
+
 }
 
 
@@ -66,9 +68,7 @@ h3 {
 @media screen and (max-width: 900px) {
 nav a {
   display: block;
-  padding: 15px;
+  padding: 30px;
 }
-nav{
-  flex-direction: column;
-}
+
 }
