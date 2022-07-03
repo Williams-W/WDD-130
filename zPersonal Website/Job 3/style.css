@@ -4,7 +4,16 @@ nav {
   line-height: 30px;
   font-size: 1em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: #545454;
+  width: 100%;
   align-items: center;
 }
 
@@ -12,6 +21,9 @@ nav a {
   font-size: 1.3em;
   text-align: center;
   flex-direction: column;
+  width: 12.5%;
+  height: 100%;
+  line-height: 47px;
 }
 
 nav a:link, nav a:visited {
@@ -24,23 +36,16 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: white;
   background-color: #0f9fa7;
-}
+} 
 
 .logo{
   width: 100%;
   height: 100%;
-  max-height: 120px;
-
 }
 
-header{
-  display: grid;
-  grid-template-columns: 150px auto;
-  margin: -8px;
-  background-color: #545454;
-  width: 100%;
+#align{
+line-height: 94px;
 }
-
 
 
 
@@ -48,6 +53,7 @@ header{
 
 body{
 background-color: #a3a4a3;
+margin: 0px;
 }
 
 h3 {
@@ -60,32 +66,43 @@ width: 700px;
 height: auto;
 }
 
-#image{
-width: 700px;
-height: auto;
-}
 
 /* Footer */
 
 footer{
-  display: grid;
-  grid-template-columns: 70% auto;
-  background-color: #545454;
-  width: 100%;
-  align-items: center;
+display: grid;
+grid-template-columns: 70% auto;
+background-color: #545454;
+width: 100%;
+align-items: center;
 }
 
 .footer_bin{
- width: 50%;
+width: 50%;
 }
 
+
+/* Bottom */
 @media screen and (max-width: 900px) {
 
 nav {
     flex-direction: column;
+    max-width: 500px;
 }
 nav a {
     display: block;
-    padding: 15px;}
+    padding-top: 15px;
+    padding-bottom: 15px;
+  width: 100%;}
 
+.logo{    max-height: 400px;
+        min-width: 400px;}
+
+header{
+display: grid;
+grid-template-columns: 400px auto;
+background-color: #545454;
+width: 100%;
+align-items: center;
+}
 }

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Quicksand&display=swap');
+:root {
+--heading-font: 'Quicksand', sans-ser;
+--paragraph-font: 'Quicksand', sans-ser;
+}
 /* Here is the css for the top portion of my website*/
 nav {
     background-color: #545454;
@@ -23,6 +29,7 @@ nav a {
     flex-direction: column;
     width: 12.5%;
     height: 100%;
+    line-height: 47px;
   }
 
 nav a:link, nav a:visited {
@@ -42,9 +49,41 @@ nav a:hover {
     height: 100%;
 }
 
+#align{
+  line-height: 94px;
+}
 
 
+/* home info grid */
 
+#home_info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 12fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#hero{
+  width: 100%;
+  height: auto;
+  grid-column: 1/8;
+  grid-row: 1/15;
+  transform: rotateY(180deg);
+}
+
+#box{
+  background-color: #faf3cc;
+  opacity: .75;
+  border-radius: 50px;
+  grid-column: 2/6;
+  grid-row: 2/14;
+}
+
+#size{
+  font-size: 4vw;
+  line-height: 410%;
+  color: black;
+  text-align: center;
+}
 
 
 /* Body */
@@ -54,19 +93,36 @@ body{
   margin: 0px;
 }
 
-h3 {
+
+#rimage{
+  width: 45%;
+  height: auto;
+  float: right;
+  padding-left: 3%;
+}
+
+#limage{
+  width: 35%;
+  height: auto;
+  float: left;
+  padding-right: 3%;
+}
+
+
+#text-main{
+  padding-left: 1%;
+  font-size: 2vw;
+}
+
+#text-lower{
+  text-align: center;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2vw;
 }
 
-#image{
-  width: 700px;
-  height: auto;
-}
-
-#hero{
-  width: 100%;
-  height: auto;
+p{
+  font-size: 4.5vw;
+  text-align: center;
 }
 
 /* Footer */
