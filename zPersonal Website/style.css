@@ -139,7 +139,10 @@ footer{
  width: 50%;
 }
 
-
+#nav-foot{
+  width: 50%;
+  line-height: 65px;
+}
 /* Bottom */
 @media screen and (max-width: 900px) {
 
